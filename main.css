@@ -1,0 +1,222 @@
+body {
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a:link {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+a:visited {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+a:hover {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+a:active {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+div.intro-wrapper {
+    display: block;
+    margin: auto;
+    width: max-content;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+img.intro-pic {
+    border-radius: 10px;
+    height: 220px;
+    display: block;
+    margin: auto;
+
+}
+
+p.intro-name {
+    color: antiquewhite;
+    font-size: 60px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+p.intro-desc {
+    color: antiquewhite;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+div.intro-link-wrapper {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 36px;
+}
+
+img.intro-link {
+    height: 36px;
+    width: min-content;
+}
+
+div.section-links {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    color: antiquewhite;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+}
+
+div.experience {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+p.section-title {
+    color: antiquewhite;
+    font-size: 50px;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 20px;   
+}
+
+div.job-wrapper {
+    background-color: #222222;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+div.job {
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+div.job-info {
+    display: block;
+    margin: auto;
+    align-items: center;
+    width: 90%;
+}
+
+p.job-title {
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: -15px;
+}
+
+p.job-location {
+    color: antiquewhite;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: -15px;
+}
+
+p.job-years {
+    color: antiquewhite;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+}
+
+div.company-logo {
+    height: fit-content;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: -15px;
+    margin-top: -15px;
+    margin-right: 15px;
+    width: fit-content;
+}
+
+div.job-duties {
+    display: block;
+    margin: auto;
+}
+
+li.job-duties {
+    color: antiquewhite;
+    font-size: 17px;
+    font-family: "Oswald", sans-serif;
+}
+
+div.projects {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+div.projects-wrapper {
+    background-color: #222222;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+div.project {
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+div.project-info {
+    display: block;
+    margin: auto;
+    align-items: center;
+    width: 90%;
+}
+
+p.project-title {
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: -15px;
+}
+
+p.project-link {
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+}
+
+div.project-logo {
+    height: fit-content;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: -15px;
+    margin-top: -15px;
+    margin-right: 15px;
+    width: fit-content;
+}
+
+p.project-description {
+    color: antiquewhite;
+    font-size: 17px;
+    font-family: "Oswald", sans-serif;
+}
+
+li.project-description-list {
+    color: antiquewhite;
+    font-size: 17px;
+    font-family: "Oswald", sans-serif;
+}
