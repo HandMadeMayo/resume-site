@@ -204,7 +204,7 @@ div.project-logo {
     padding: 5px;
     border-radius: 5px;
     margin-bottom: -15px;
-    margin-top: -15px;
+    margin-top: 15px;
     margin-right: 15px;
     width: fit-content;
 }
@@ -216,6 +216,121 @@ p.project-description {
 }
 
 li.project-description-list {
+    color: antiquewhite;
+    font-size: 17px;
+    font-family: "Oswald", sans-serif;
+}
+
+div.certifications {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+div.certifications-wrapper {
+    background-color: #222222;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+div.certification {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-bottom: -15px;
+}
+
+div.certification-info {
+    display: block;
+    margin: auto;
+    align-items: center;
+    width: 90%;
+}
+
+p.certification-title {
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: -15px;
+}
+
+p.certification-link {
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+}
+
+div.certification-logo {
+    height: fit-content;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: -15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    width: fit-content;
+}
+
+p.certification-description {
+    color: antiquewhite;
+    font-size: 17px;
+    font-family: "Oswald", sans-serif;
+}
+
+div.education {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+div.education-wrapper {
+    background-color: #222222;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+div.institute {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-bottom: -15px;
+}
+
+div.institute-info {
+    display: block;
+    margin: auto;
+    align-items: center;
+    width: 90%;
+}
+
+p.institute-title {
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: -15px;
+}
+
+p.institute-degree {
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    color: antiquewhite;
+}
+
+div.institute-logo {
+    height: fit-content;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: -15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    width: fit-content;
+}
+
+p.institute-description {
     color: antiquewhite;
     font-size: 17px;
     font-family: "Oswald", sans-serif;
